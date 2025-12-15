@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Микита Добрецов — Портфоліо</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <div class="brand">
+        <span class="badge"><span class="badge-dot"></span> Навчальний сайт • 3 сторінки • GitHub Pages</span>
+      </div>
+      <nav class="menu">
+        <a data-nav href="index.html">Про мене</a>
+        <a data-nav href="resume.html">Резюме</a>
+        <a data-nav href="report.html">Звіт</a>
+      </nav>
+    </div>
+  </header>
+
+  
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="card">
+      <div class="card-inner">
+        <div class="kicker">Інформація про студента</div>
+        <h1>Микита Добрецов</h1>
+        <p class="sub">
+          Факультет міжнародної торгівлі та права • Група 1-7<br/>
+          Дисципліна: «Інформаційні технології в забезпеченні економічної безпеки держави»
+        </p>
+
+        <div class="chips" aria-label="Короткі дані">
+          <span class="chip"><span class="pulse"></span><b>Телефон</b> <small>+380 953 804 565</small></span>
+          <span class="chip"><span class="pulse"></span><b>Email</b> <small>—</small></span>
+          <span class="chip"><span class="pulse"></span><b>Країна звіту</b> <small>США</small></span>
+        </div>
+
+        <div class="btn-row">
+          <a class="btn primary" href="resume.html">Перейти до резюме</a>
+          <a class="btn" href="report.html">Переглянути звіт</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="side">
+      <div class="card small">
+        <div class="card-inner">
+          <h3>Що є на сайті?</h3>
+          <p>1) Про мене • 2) Резюме • 3) Аналітичний звіт: 5 загроз + 5 рекомендацій (США).</p>
+        </div>
+      </div>
+
+      <div class="card small">
+        <div class="card-inner">
+          <h3>Коротко про мене</h3>
+          <p>Навчаюся, займаюся спортом, цікавлюся дослідженнями та прикладними навичками у сфері роботи з людьми й технологіями.</p>
+        </div>
+      </div>
+
+      <div class="card small">
+        <div class="card-inner">
+          <h3>Порада для GitHub</h3>
+          <p>Завантаж у репозиторій усі файли з папки сайту. У Pages обери гілку <span class="mono">main</span> і папку <span class="mono">/root</span>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container grid">
+    <div class="card block col-7">
+      <h2>Навички</h2>
+      <ul>
+        <li>Консультація клієнтів та підбір товарів під запит</li>
+        <li>Комунікація, відповідальність, робота в команді</li>
+        <li>Базові цифрові навички та робота з інформацією</li>
+      </ul>
+    </div>
+
+    <div class="card block col-5">
+      <h2>Інтереси</h2>
+      <ul>
+        <li>Футбол, волейбол, турніри</li>
+        <li>Дослідницькі проєкти та конкурси</li>
+        <li>Теми космосу та міжкультурної комунікації</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div>© <span id="y"></span> • <span class="mono">DTEU</span> • Портфоліо</div>
+      <div class="mono">Готово для завантаження на GitHub Pages</div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
